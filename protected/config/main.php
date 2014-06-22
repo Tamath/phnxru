@@ -28,6 +28,7 @@ return array(
 			),
             'class' => 'system.gii.GiiModule',
             'password' => '123',
+			'ipFilters' => array('192.168.1.*'),
 		),
 		'user' => array(
 			'tableUsers' => 'users',
