@@ -1,5 +1,6 @@
 <?php
 $this->breadcrumbs=array(
+    'Admin CP' => array('admin/admin'),
 	'Projects'=>array('index'),
 	$model->name=>array('view','id'=>$model->id),
 	'Update',
@@ -9,7 +10,6 @@ $this->menu=array(
 	array('label'=>'List Project','url'=>array('index')),
 	array('label'=>'Create Project','url'=>array('create')),
 	array('label'=>'View Project','url'=>array('view','id'=>$model->id)),
-	array('label'=>'Manage Project','url'=>array('admin')),
 );
 ?>
 

@@ -1,12 +1,12 @@
 <?php
 $this->breadcrumbs=array(
+    'Admin CP' => array('admin/admin'),
 	'Projects'=>array('index'),
 	'Create',
 );
 
 $this->menu=array(
 	array('label'=>'List Project','url'=>array('index')),
-	array('label'=>'Manage Project','url'=>array('admin')),
 );
 ?>
 

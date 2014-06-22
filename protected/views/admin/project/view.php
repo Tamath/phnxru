@@ -1,5 +1,6 @@
 <?php
 $this->breadcrumbs=array(
+    'Admin CP' => array('admin/admin'),
 	'Projects'=>array('index'),
 	$model->name,
 );
@@ -9,7 +10,6 @@ $this->menu=array(
 	array('label'=>'Create Project','url'=>array('create')),
 	array('label'=>'Update Project','url'=>array('update','id'=>$model->id)),
 	array('label'=>'Delete Project','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Project','url'=>array('admin')),
 );
 ?>
 
