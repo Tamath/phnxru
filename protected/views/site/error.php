@@ -1,1 +1,0 @@
-Error happened: <?php echo $message; ?>
